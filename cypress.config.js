@@ -8,7 +8,8 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
     env:{
-      requestMode: true
+      requestMode: true,
+      auth_url: '/auth'
     }
   },
 });
