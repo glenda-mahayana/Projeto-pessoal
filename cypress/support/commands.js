@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-cypress.commands.add('postRequest', (endpoint, headers = {}, body = {}, qs = {}) => {
+Cypress.Commands.add('postRequest', (endpoint, headers = {}, body = {}, qs = {}) => {
     cy.request({
         method: 'POST',
         url: endpoint,
