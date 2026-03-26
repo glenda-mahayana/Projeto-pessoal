@@ -9,7 +9,8 @@ module.exports = defineConfig({
     },
     env:{
       requestMode: true,
-      auth_url: '/auth'
+      auth_url: '/auth',
+      booking_url: '/booking'
     }
   },
 });
