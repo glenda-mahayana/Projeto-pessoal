@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
+  projectId: 'go5hz9',
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
     baseUrl: 'https://restful-booker.herokuapp.com',
